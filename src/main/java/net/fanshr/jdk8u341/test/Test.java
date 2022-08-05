@@ -1,6 +1,7 @@
 package net.fanshr.jdk8u341.test;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
@@ -12,10 +13,5 @@ import java.util.concurrent.ConcurrentHashMap;
 public class Test {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        System.out.println("test...");
-
-        HashMap<String, String> map = new HashMap<>();
-        ConcurrentHashMap map = new ConcurrentHashMap();
-        map.put("k1", "v1");
     }
 }
